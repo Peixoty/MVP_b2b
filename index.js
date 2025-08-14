@@ -1,7 +1,7 @@
-import express from 'express';
-import pkg from 'pg';
-import cors from 'cors';
-import dotenv from 'dotenv';
+const express = require('express') 
+const pkg = require('pg')
+const cors = require('cors');
+require('dotenv').config();
 
 dotenv.config();
 const { Pool } = pkg;
