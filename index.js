@@ -3,7 +3,6 @@ const pkg = require('pg')
 const cors = require('cors');
 require('dotenv').config();
 
-dotenv.config();
 const { Pool } = pkg;
 const app = express();
 app.use(cors());
