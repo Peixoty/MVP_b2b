@@ -35,4 +35,4 @@ app.get('/buscar', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(3000, () => console.log(`API rodando na porta ${PORT}`));
+app.listen(PORT, () => console.log(`API rodando na porta ${PORT}`));
